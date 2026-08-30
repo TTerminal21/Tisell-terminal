@@ -1,0 +1,18 @@
+# v1 items 1-2: multi-source data layer -> DuckDB -> FastAPI -> Streamlit.
+# Analytics/TUI dependencies (cvxpy, scipy, cupy, textual) come with later items.
+fastapi>=0.115
+uvicorn[standard]>=0.30
+duckdb>=1.0
+httpx>=0.27
+python-dotenv>=1.0
+pandas>=2.2
+yfinance>=0.2.40
+streamlit>=1.36
+streamlit-lightweight-charts>=0.7.19
+plotly>=5.20
+matplotlib>=3.8
+XlsxWriter>=3.2
+openpyxl>=3.1
+scipy>=1.11
+cvxpy>=1.5
+pytest>=8.0

@@ -1,0 +1,17 @@
+# Secrets
+.env
+
+# DuckDB storage
+*.duckdb
+*.duckdb.wal
+data-layer/*.duckdb
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# OS
+.DS_Store
+backups/

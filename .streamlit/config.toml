@@ -1,0 +1,15 @@
+# Only the accent and the default mode are set here. Background and text are
+# deliberately left to Streamlit: hardcoding them silently overrides `base`,
+# which makes the app's own palette and the custom stylesheet disagree — the
+# chrome stays light while the tokens go dark.
+#
+# Switching Light/Dark in Streamlit's settings menu now flips both together.
+[theme]
+base = "dark"
+primaryColor = "#2E6BE6"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false
