@@ -23,9 +23,20 @@ Requires Python 3.11+.
 
 ## Run
 
+Double-click **`Tisell Terminal.command`** (macOS) or **`Tisell Terminal.bat`**
+(Windows). Both start the data layer and the dashboard together, wait for the
+API, open the browser, and shut down on Ctrl-C. Keep the console window open —
+closing it stops the terminal.
+
+Or from a shell:
+
 ```bash
 python run.py
 ```
+
+Moving the project to the Windows machine: see `SETUP-WINDOWS.md`. The short
+version is copy everything except `.venv`, install Python 3.11+, and rebuild
+the environment from `requirements.txt`.
 
 Starts the data layer and the dashboard together, waits for the API, opens the
 browser, and shuts both down on Ctrl-C. Dashboard on
